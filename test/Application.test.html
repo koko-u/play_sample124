@@ -3,5 +3,6 @@
 #{selenium}
     // Open the home page, and check that no error occured
     open('/')
-    assertNotTitle('Application error')
+    assertTitle('Home')
+    assertTextPresent('A Blog will be here')
 #{/selenium}
